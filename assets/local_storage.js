@@ -46,7 +46,7 @@ for (i=0; i<elements.options.length; i++){
 }
 
 localStorage.setItem('Elementos', JSON.stringify(elementos));
-alert("Se ha eliminado el elemento "+ele)
+alert("Se ha eliminado el elemento "+ele + " hay que entrar en LocalStoraje para validar")
 //localStorage.setItem('Elementos', )
     
     /*   alert(elements.options.selectindex)

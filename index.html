@@ -24,20 +24,24 @@
            <div class="text1"> Para eliminar todos los elementos solo es necesario escribir dentro de nuestro script LocalStorage.clear(); </div>
            <p class="titulo2">Eliminar elementos en especifico</p>
         <div class="text1">Para eliminar elementos tenemos la opción de localStorage.removeItem(keyName). Donde keyName es la cadena que tiene el nombre de la clave eliminar.</div>
-          <p>Antes de eliminar elementos se crearan internamente en el código los siguientes:</p>
+          Antes de eliminar elementos se crearan internamente en el código los siguientes:
           <ul>
             <li>Elemento 1</li>
             <li>Elemento 2</li>
             <li>Elemento 3</li>
             <li>Elemento 4</li>
         </ul>
-           <p> A continuación se mostraran los elementos del localstore almacenados en la siguiente lista en la cual hay que elegir uno para eliminar usando el boton eliminar, o sin elegir para eliminarlos todos, usar el botón eliminar todos:</p>
-<button id="elimUno">Eliminar</button>
+           <p>A continuación se mostraran los elementos del localstore almacenados en la siguiente lista en la cual hay que elegir uno para eliminar usando el boton eliminar, o sin elegir para eliminarlos todos, usar el botón eliminar todos:</p>
+           <form class="forma" action="">        <label >Presióna el siguiente botón si deseas eliminarlos todos:</label>
+        <button class="elimTodos" id="elimTodos">Eliminar todos</button>
+        <p></p>
+        <label >Escoge el elemento a eliminar y despues presiona el boton eliminar:</label>
+        <select name="elementos" id="elementos"></select>
+        <button class="elimUno" id="elimUno">Eliminar</button>
 
-<label for="Nombresss">Escoge el elemento a eliminar:</label>
-<select name="elementos" id="elementos"></select>
+</form>
 
-<button id="elimTodos">Eliminar todos</button>
+
 <script src="/assets/local_storage.js"></script>
         </section>
         
