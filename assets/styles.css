@@ -24,7 +24,7 @@
 }
 
 .titulo2{
-    font-size: 25px;
+    font-size: 20px;
     color: black;
 }
 .text1{
@@ -42,5 +42,9 @@
 }
 .forma{
     background-color: black;
+    color: white;
+}
+.recargar{
+    background-color:blue;
     color: white;
 }
